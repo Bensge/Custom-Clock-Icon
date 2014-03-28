@@ -7,11 +7,15 @@ Custom Clock Icon is designed to be an enhancement for winterboard themes. To us
 *   add this package as a dependency to your themes debian control file
 *   create a dictionary in your theme's Info.plist file called ```customclockicon```
 *   inside that dictionary, create strings called:
-+   	```blackDot```
-+   	```hours```
-+   	```minutes```
-+   	```seconds```
-+   	```redDot```
+*    +   	```blackDot```
+*    +   	```hours```
+*    +   	```minutes```
+*    +   	```seconds```
+*    +   	```redDot```
 *   the value of those strings should be a color value in hexadecimal representation formatted like this: ```#FFFFFF```
+
+An example Info.plist file can be [downloaded here](https://dl.dropboxusercontent.com/u/11861869/Info.plist)
+
+
 
 That's all there is to it. MIT license.
